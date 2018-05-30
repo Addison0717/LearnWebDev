@@ -44,6 +44,7 @@
  align-items: center;
 } */
 
-html {
+body {
   background: linear-gradient(#99b898, #fecea8, #ff847c, #e84a5f, #2a363b);
+  height: 100vh;
 }
