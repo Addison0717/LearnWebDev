@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel=“stylesheet” href=“style.css”>
+    <script type=“text/javascript” src=“main.js”></script>
+    <title>Clean code/ Refactoring</title>
+  </head>
+  <body>
+    <div class=“back”>
+      <button type=“button” name=“button” href=“#” class=“home”>Home</button>
+    </div>
+    <div class="content">
+
+
+      <h1>Refactoring</h1>
+      <p>Code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring improves nonfunctional attributes of the software. Advantages include improved code readability and reduced complexity; these can improve source-code maintainability and create a more expressive internal architecture or object model to improve extensibility. Typically, refactoring applies a series of standardised basic micro-refactorings, each of which is (usually) a tiny change in a computer program's source code that either preserves the behaviour of the software, or at least does not modify its conformance to functional requirements. Many development environments provide automated support for performing the mechanical aspects of these basic refactorings. If done extremely well, code refactoring may help software developers discover and fix hidden or dormant bugs or vulnerabilities in the system by simplifying the underlying logic and eliminating unnecessary levels of complexity. If done poorly it may fail the requirement that external functionality not be changed, introduce new bugs, or both.</p>
+      <h2>List of refactoring techniques</h2>
+      <ul>
+        <li>Techniques that allow for more abstraction</li>
+        <ul>
+          <li>Encapsulate field – force code to access the field with getter and setter methods</li>
+          <li>Generalize type – create more general types to allow for more code sharing</li>
+          <li>Replace type-checking code with state/strategy</li>
+          <li>Replace conditional with polymorphism </li>
+        </ul>
+        <li>Techniques for breaking code apart into more logical pieces</li>
+        <ul>
+          <li>Componentization breaks code down into reusable semantic units that present clear, well-defined, simple-to-use interfaces.</li>
+          <li>Extract class moves part of the code from an existing class into a new class.</li>
+          <li>Extract method, to turn part of a larger method into a new method. By breaking down code in smaller pieces, it is more easily understandable. This is also applicable to functions.</li>
+        </ul>
+        <li>Techniques for improving names and location of code</li>
+        <ul>
+          <li>Move method or move field – move to a more appropriate class or source file</li>
+          <li>Rename method or rename field – changing the name into a new one that better reveals its purpose</li>
+          <li>Pull up – in object-oriented programming (OOP), move to a superclass</li>
+          <li>Push down – in OOP, move to a subclass</li>
+        </ul>
+      </ul>
+    </div>
+  </body>
+</html>
