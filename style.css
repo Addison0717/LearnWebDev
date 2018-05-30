@@ -53,8 +53,29 @@ body {
 a, a:hover, a:visited, a:active {
   text-decoration: none!important;
   color: white;
+
 }
 
+.indexcontent p {
+  writing-mode:tb-rl;/*IE*/
+  writing-mode:vertical-lr;/* OPera/webkit*/
+  writing-mode:sideways-lr;/* should be the one */
+  float: left;
+  padding: 10px;
+  margin-right: 50px;
+  height: 50vh;
+
+}
+
+.indexcontent p:hover{
+  background-color: #fecea8;
+  color: #2a363b;
+
+}
+
+.indexcontent{
+  min-height: 50vh;
+}
 
 .container {
   background: #2a363b;
