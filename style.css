@@ -49,3 +49,35 @@ body {
   min-height: 100vh;
   height: 100%;
 }
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none!important;
+  color: white;
+}
+
+
+.container {
+  background: #2a363b;
+  color: white;
+  /* padding: 25px; */
+}
+
+.header-content {
+  background-color: #99b898!important;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 0px!important;
+  /* float: left; */
+}
+
+.back{
+    text-align: center!important;
+}
+
+.btn {
+  background-color: #ff847c!important;
+  border-radius: 0px!important;
+  border: 0px!important;
+  /* margin: 90%; */
+  width: 100%!important;
+}
