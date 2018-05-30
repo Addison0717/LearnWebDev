@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+}
+.container {
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.header {
+  height: 25vh;
+  background-color: green;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 70vh;
+}
+
+.topic {
+  display: flex;
+  justify-content: center;
+ width: 15vw;
+ height: 30vh;
+ background-color: blue;
+ margin-right: 1vw;
+ margin-top: 2vh;
+ border-radius: 50%;
+ text-align: center;
+ font-size: 20px;
+ align-items: center;
+}
