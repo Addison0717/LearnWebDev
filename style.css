@@ -1,5 +1,6 @@
 body {
-  background-color: grey;
+  /* background-color: grey; */
+  /* background-color: rgb(251, 238, 255); */\
 }
 .container {
 
@@ -20,7 +21,7 @@ body {
   text-align: center;
 }
 
-.content {
+.indexcontent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
